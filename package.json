@@ -1,0 +1,28 @@
+{
+  "name": "project1-api-task",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "cookie-parser": "^1.4.6",
+    "custom-env": "^2.0.1",
+    "debug": "^2.6.9",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "express-jwt": "^6.1.0",
+    "http-errors": "^1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "kill-port": "^1.6.1",
+    "nodemon": "^2.0.4"
+  }
+}
